@@ -28,8 +28,6 @@ public class WebApi {
     @RequestMapping("/getString")
     @ResponseBody
     public String getString(){
-        int rnd = (int)(Math.random() * (100 - 50 + 1) + 50);
-        int  hola = rnd;
-        return Integer.toString(rnd);
+        return "soy la poia";
     }
 }
