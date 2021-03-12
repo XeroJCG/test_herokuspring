@@ -19,10 +19,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class WebApi {
     @RequestMapping("/randomValue")
     @ResponseBody
-    public String getRandomValue(int test){
+    public String getRandomValue(){
         int rnd = (int)(Math.random() * (100 - 50 + 1) + 50);
-        int  hola = rnd + test;
-        
-        return Integer.toString(rnd+test);
+        int  hola = rnd;
+        return Integer.toString(rnd);
+    }
+    
+    @RequestMapping("/getString")
+    @ResponseBody
+    public String getString(){
+        int rnd = (int)(Math.random() * (100 - 50 + 1) + 50);
+        int  hola = rnd;
+        return Integer.toString(rnd);
     }
 }
