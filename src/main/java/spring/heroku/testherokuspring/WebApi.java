@@ -30,6 +30,7 @@ public class WebApi {
     public String getString(){
         String test = "";
         boolean bool = false;
+        int testInt = 0;
         return "return de prueba";
     }
 }
