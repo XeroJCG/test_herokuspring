@@ -29,6 +29,7 @@ public class WebApi {
     @ResponseBody
     public String getString(){
         String test = "";
+        int testInt = 0;
         return "return de prueba";
     }
 }
