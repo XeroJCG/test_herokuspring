@@ -28,6 +28,7 @@ public class WebApi {
     @RequestMapping("/getString")
     @ResponseBody
     public String getString(){
+        String test = "";
         return "return de prueba";
     }
 }
