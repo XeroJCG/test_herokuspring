@@ -28,6 +28,6 @@ public class WebApi {
     @RequestMapping("/getString")
     @ResponseBody
     public String getString(){
-        return "soy la poia";
+        return "return de prueba";
     }
 }
