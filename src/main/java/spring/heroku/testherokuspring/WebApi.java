@@ -22,6 +22,7 @@ public class WebApi {
     public String getRandomValue(){
         int rnd = (int)(Math.random() * (100 - 50 + 1) + 50);
         int  hola = rnd;
+        int jr = 1000;
         return Integer.toString(rnd);
     }
     
