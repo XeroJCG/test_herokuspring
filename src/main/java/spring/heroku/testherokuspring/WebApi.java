@@ -30,7 +30,7 @@ public class WebApi {
         String test = "";
         boolean bool = false;
         int testInt = 0;
-        //Junior se la come
+        //Junior se la come completa
         return "return de prueba";
     }
 }
