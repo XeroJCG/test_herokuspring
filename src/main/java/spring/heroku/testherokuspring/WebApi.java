@@ -21,9 +21,6 @@ public class WebApi {
     @ResponseBody
     public String getRandomValue(){
         int rnd = (int)(Math.random() * (100 - 50 + 1) + 50);
-        int  hola = rnd;
-        int jr = 1000;
-        String harold;
         return Integer.toString(rnd);
     }
     
