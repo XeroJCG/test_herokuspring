@@ -21,6 +21,7 @@ public class WebApi {
     @ResponseBody
     public String getRandomValue(){
         int rnd = (int)(Math.random() * (100 - 50 + 1) + 50);
+        //otro comentario
         return Integer.toString(rnd);
     }
     
